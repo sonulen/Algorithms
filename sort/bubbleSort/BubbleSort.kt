@@ -15,7 +15,7 @@ fun bubbleSort(numbers: Array<Int>) {
 fun printArray(array: Array<Int>) {
     for ((i, e) in array.withIndex()) {
     	print("[$i] = $e ")
-	}
+    }
     println()
 }
 
